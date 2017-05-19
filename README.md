@@ -10,19 +10,23 @@
 2.) clear - Used to clear the view of the shell.
 3.) ls - Used to list all of the visible files in a directory.
 4.) alias/export - Used to create shortcuts for commands/Used to export alias commands into a file.
-5.) nano - Used to edit a file within the shell.
+5.) cp – Copy a File.
 6.) mv – Move and Rename Files.
-7.) * - Technically not a command, but a useful way to select all of one set of files.
+7.) [up-arrow], [down-arrow] - Display commands history.
 8.) cat - Used to display the contents of a file.
 9.) sort - Used to sort a file.
 10.) rm - Used to permanently remove a file, without sending it to the trash.
-11.) cp – Copy a File.
-12.) man – Display Command Manual Files.
-13.) pwd – Print Working Directory.
-14.) wget – Retrieve files from remote locations.
-15.) grep – Search Files or Output.
-16.) tail – Display End of a File.
-17.)up-arrow , down-arrow - display commands history.
+
+ - [X] Extra useful commands.
+
+11.) * - Technically not a command, but a useful way to select all of one set of files.
+12.) nano - Used to edit a file within the shell.
+13.) man – Display Command Manual Files.
+14.) pwd – Print Working Directory.
+15.) wget – Retrieve files from remote locations.
+16.) grep – Search Files or Output.
+17.) tail – Display End of a File.
+
 ### Level Up your Debugging
 
 - [X] Artifact includes a list of 3+ debugging tools that you found especially useful
@@ -65,7 +69,7 @@ git push
 git branch --track origin/feature-branch
 - [x] push a **local branch** to a specific remote branch
 (Once the branch you want is selected.)
-git push --set-upstream origin little-tiger
+git push remote-branch little-tiger
 - [X] **revert** files back to a specific commit
 git revert little-tiger
 - [X] **rebase** a branch onto master
@@ -85,6 +89,11 @@ git cherry-pick little-tiger
 Doug: 40 WPM
 Amine: 30 WPM
 
+### Practice Pair Programming
+1.) pairing in roles(driver & navigator)
+2.) pairing on the same computer
+3.) giving feedback at the end of each day
+
 ### Master your Editor
 
 - [X] Artifact contains a list of 3+ features of your editor that you discovered
@@ -93,28 +102,26 @@ Amine: 30 WPM
 3.) Numerous packages and themes to customize your workspace.
 4.) Command + D - selects multiple lines of the same text.
 5.) Find and replace text.
-6.) Ctrl + T - (Fuzzy Finder) search for any file you want.
-7.) Ctrl + \ - View and open files in your current project.
-8.) Package Installer allows you to search for packages or themes and install them as needed.
-9.) Alt + Shift + P - (project-manager) Easy access and management to all your projects. Allows for project specific settings and options.
-10.) highlight-selected - When you double click a word, it and every other matching word in the file becomes highlighted.
-11.) simple-drag-drop-text - Highlight text to drag and drop it somewhere else in your code.
-
-
+6.) Command + T - (Fuzzy Finder) search for any file you want.
+7.) Command + \ - View and open files in your current project.
+9.) Command + Shift + P - (project-manager) Easy access and management to all your projects. Allows for project specific settings and options.
 
 - [X] Artifact contains a list of your favorite editor plugins
-1.) Beautify - Beautifies your code
+
+1.) Package Installer - allows you to search for packages or themes and install them as needed. 
 2.) Minimap - Displays a navigatable overview of your code.
 3.) Color Picker - Displays a color wheel when choosing HTML colors.
 4.) Pigments - Makes the HTML selecting a color display the color itself.
 5.) git-plus: Ctrl + Shift + H - Shortcuts to common git actions without needing to switch to your terminal.
 6.) merge-conflicts - A very helpful tool for finding, previewing, and resolving merge conflicts within your project.
-7.) emmet: tab - Expand abbreviations by Tab key. it also one of my favorites because it saves me so much time typing my code.
+7.) emmet: tab - Expand abbreviations by Tab key. It also one of my favorites because it saves me so much time typing my code.
 8.) docblockr - Makes writing documentation faster by detecting the details of the function below it and autofilling much of the comment.
-9.) linter - visualizes and notifies you of errors within your project. and probably one of the most helpful packages.
+9.) linter - Visualizes and notifies you of errors within your project. It is probably one of the most helpful packages.
 10.) autocomplete-modules - Autocompletes require/import statements for you by following the path you type and showing you the available files at that location.
 11.) auto-update-packages - Updates your packages automatically by checking for updates at the interval defined in it's settings.
-
+12.) Beautify - Beautifies your code
+13.) simple-drag-drop-text - Highlight text to drag and drop it somewhere else in your code.
+14.) highlight-selected - When you double click a word, it and every other matching word in the file becomes highlighted.
 
 
 ### Setup Homebrew and Install Some Packages
